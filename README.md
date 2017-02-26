@@ -6,7 +6,7 @@ To reverse-engineer the main Google search page (cosmetically, not functionally)
 * HTML
 * CSS
 * Git
-* Dev Tools
+* Dev Tools  
 ## Lessons learnt  
 Positioning in general  
 Removing default styling from form buttons  
