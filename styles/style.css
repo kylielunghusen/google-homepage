@@ -1,0 +1,160 @@
+html * {
+  margin: 0;
+  padding: 0;
+}
+
+#central-content {
+  width: 590px;
+  margin: 0 auto;
+  margin-top: 147px;
+}
+
+#logo {
+  height: auto;
+  width: 288px;
+  height: 92px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+#logo img {
+  margin: 0 8px;
+}
+
+#logo p {
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-stretch: semi-condensed;
+  color: #4285f4;
+  margin-top: -20px;
+}
+
+#search-box {
+  width:584px;
+  height: 45px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 0 #ccc;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+#button-bar {
+  width: 300px;
+  height: 35px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+#search {
+  height: 36px;
+  width: 132px;
+  border-radius: 2px;
+  float: left;
+  background-color: #f2f2f2;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-style: solid;
+  border-color: #f2f2f2;
+}
+
+#lucky {
+  height: 36px;
+  width: 150px;
+  border-radius: 2px;
+  float: right;
+  background-color: #f2f2f2;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-style: solid;
+  border-color: #f2f2f2;
+}
+
+#top-bar {
+  height: 50px;
+  display: block;
+}
+
+#bar-items {
+  float: right;
+  display: inline;
+  height: 50px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+#bar-items li {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 12px;
+  /*vertical-align: auto;*/
+  margin: auto 4px;
+  /*height: 50px;
+  line-height: 50px;*/
+  vertical-align: middle;
+}
+
+#apps-icon {
+  width: 18px;
+  height: 18px;
+  line-height: 0;
+}
+
+#apps-icon div {
+  height: 4px;
+  width: 4px;
+  margin: 1px;
+  background-color: grey;
+  display: inline-block;
+}
+
+#bell {
+  padding: 11px 0;
+  line-height: 0;
+}
+
+#bat {
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  background: url('../images/batavar.gif');
+  background-size: 100%;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  bottom: 0;
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  display: block;
+}
+
+#footer ul li {
+  font-family: sans-serif;
+  font-size: 12px;
+  display: inline-block;
+  margin: auto 10px;
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+#foot-left {
+  float: left;
+  height: 40px;
+  display: inline;
+  margin-left: 20px;
+}
+
+#foot-right {
+  float: right;
+  height: 40px;
+  display: inline;
+  /*background-color: yellow;*/
+  /*display: inline;*/
+  margin-right: 20px;
+}
